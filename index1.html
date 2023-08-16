@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8"/>
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+<link rel="stylesheet" href="style1.css"/>
+<title>Road Rush</title>
+</head>
+<body>
+<div id="score">0</div>
+<div id="level">LEVEL 2</div>
+<div id="instructions">
+    Press the Upward Button to start!
+</div>
+
+<div id="controls">
+    <div id="buttons">
+        <button id="accelerate">
+            <svg width="30" height="30" viewBox="0 0 10 10">
+                <g transform="rotate(0,5,5)">
+                    <path d ="M5,4 L7,6 L3,6 L5,4"/>
+                </g>
+            </svg>
+        </button>
+        <button id="decelerate">
+            <svg width="30" height="30" viewBox="0 0 10 10">
+                <g transform="rotate(180,5,5)">
+                    <path d="M5,4 L7,6 L3,6 L5,4"/>
+                </g>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div id="end">
+    <button id="retry">Retry</button>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+<script src="app1.js"></script>
+</body>
+</html>

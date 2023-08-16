@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  font-size: 2em;
+  color: saddlebrown;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 5px 0px 0px rgba(226, 197, 147, 0.75);
+}
+#score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 0.9 em;
+  color: teal;
+}
+#level {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: antiquewhite;
+  color: teal;
+}
+#controls {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#controls div {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 20px;
+}
+#controls button {
+  width: 100%;
+  background-color: antiquewhite;
+  border: 1px solid burlywood;
+}
+
+#instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: antiquewhite;
+  color: teal;
+}
+
+#end {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+#end button {
+  background-color: crimson;
+  padding: 20px 50px 20px 50px;
+  font-family: inherit;
+  font-size: inherit;
+}
